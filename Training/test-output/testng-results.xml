@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Adhocofupdated" duration-ms="225851" started-at="2020-02-23T12:43:12 EST" finished-at="2020-02-23T12:46:58 EST">
+    <groups>
+    </groups>
+    <test name="Regression" duration-ms="96180" started-at="2020-02-23T12:43:12 EST" finished-at="2020-02-23T12:44:48 EST">
+      <class name="Run.DatasetofFacebook">
+        <test-method status="PASS" signature="beforeClass(java.lang.String, java.lang.String)[pri:0, instance:Run.DatasetofFacebook@63e2203c]" name="beforeClass" is-config="true" duration-ms="13862" started-at="2020-02-23T12:43:12 EST" finished-at="2020-02-23T12:43:26 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://facebook.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String)[pri:0, instance:Run.DatasetofFacebook@63e2203c]" name="f" duration-ms="13711" started-at="2020-02-23T12:43:26 EST" data-provider="signin" finished-at="2020-02-23T12:43:40 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jafiefj@iga.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String)[pri:0, instance:Run.DatasetofFacebook@63e2203c]" name="f" duration-ms="13355" started-at="2020-02-23T12:43:41 EST" data-provider="signin" finished-at="2020-02-23T12:43:54 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tina@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String)[pri:0, instance:Run.DatasetofFacebook@63e2203c]" name="f" duration-ms="53778" started-at="2020-02-23T12:43:54 EST" data-provider="signin" finished-at="2020-02-23T12:44:48 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[diadfjidf@gami.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:Run.DatasetofFacebook@63e2203c]" name="afterClass" is-config="true" duration-ms="1" started-at="2020-02-23T12:44:48 EST" finished-at="2020-02-23T12:44:48 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- Run.DatasetofFacebook -->
+    </test> <!-- Regression -->
+    <test name="RegFirefox" duration-ms="129513" started-at="2020-02-23T12:44:49 EST" finished-at="2020-02-23T12:46:58 EST">
+      <class name="Run.DatasetofFacebook">
+        <test-method status="PASS" signature="beforeClass(java.lang.String, java.lang.String)[pri:0, instance:Run.DatasetofFacebook@1f7030a6]" name="beforeClass" is-config="true" duration-ms="69266" started-at="2020-02-23T12:44:49 EST" finished-at="2020-02-23T12:45:58 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://facebook.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String)[pri:0, instance:Run.DatasetofFacebook@1f7030a6]" name="f" duration-ms="27498" started-at="2020-02-23T12:45:58 EST" data-provider="signin" finished-at="2020-02-23T12:46:25 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jafiefj@iga.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String)[pri:0, instance:Run.DatasetofFacebook@1f7030a6]" name="f" duration-ms="15907" started-at="2020-02-23T12:46:26 EST" data-provider="signin" finished-at="2020-02-23T12:46:42 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tina@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String)[pri:0, instance:Run.DatasetofFacebook@1f7030a6]" name="f" duration-ms="15534" started-at="2020-02-23T12:46:42 EST" data-provider="signin" finished-at="2020-02-23T12:46:58 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[diadfjidf@gami.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:Run.DatasetofFacebook@1f7030a6]" name="afterClass" is-config="true" duration-ms="0" started-at="2020-02-23T12:46:58 EST" finished-at="2020-02-23T12:46:58 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- Run.DatasetofFacebook -->
+    </test> <!-- RegFirefox -->
+  </suite> <!-- Adhocofupdated -->
+</testng-results>

@@ -1,0 +1,27 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name= "Adhocofupdated">
+
+  <listeners>
+  	<listener class-name="Com.Facebook.Training.App"></listener>
+  </listeners>
+  
+	<test name="Regression">
+	<parameter name="url" value ="https://facebook.com"></parameter>
+	<parameter name="browser" value="Chrome"></parameter>
+		<classes>
+			<class name="Run.DatasetofFacebook"></class>
+			<!--<class name="Adhoc.AmazonTest"></class>-->
+		</classes>
+	</test>
+	
+	<test name="RegFirefox">
+	<parameter name="url" value ="https://facebook.com"></parameter>
+	<parameter name="browser" value="Firefox"></parameter>
+		<classes>
+			<class name="Run.DatasetofFacebook"></class>
+			<!--<class name="Adhoc.AmazonTest"></class>-->
+		</classes>
+	</test>
+	
+</suite>
